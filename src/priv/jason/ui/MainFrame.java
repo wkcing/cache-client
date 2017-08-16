@@ -27,8 +27,8 @@ import priv.jason.memcache.RedisUtil;
 public class MainFrame{
 	
 	public static final String[] SERVER = {"MEMCACHE", "REDIS"};
-	public static final String[] MEMCACHE = {"106.15.90.111:10026", "139.224.119.61:10035"};
-	public static final String[] REDIS = {"106.15.90.111:6379", "139.224.119.61:6380"};
+	public static final String[] MEMCACHE = {"192.168.12.12:10026", "192.168.12.12:10035"};
+	public static final String[] REDIS = {"192.168.12.12:6379", "192.168.12.12:6380"};
 	public static final String[] OPERATION1 = {"获取", "设置", "删除"};
 	public static final String[] OPERATION2 = {"获取", "设置", "删除", "获取有序集合", "设置有序集合"};
 	public static boolean isConnected = false;
